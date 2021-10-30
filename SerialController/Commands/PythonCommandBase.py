@@ -117,6 +117,7 @@ class PythonCommand(CommandBase.Command):
 		self.press(Direction.RIGHT)
 		self.press(Direction.RIGHT)
 		self.press(Direction.RIGHT)
+		self.press(Direction.RIGHT)
 		self.press(Button.A, wait=1.5) # System Settings
 		self.press(Direction.DOWN, duration=2, wait=0.5)
 
